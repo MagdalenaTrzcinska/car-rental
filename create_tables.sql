@@ -28,3 +28,8 @@ CREATE TABLE contract_type(
 shortcut varchar(3) not null primary key,
 full_name varchar(40) not null
 );
+
+CREATE TABLE salary(
+ID int not null auto_increment primary key,
+type varchar(40) not null
+);
