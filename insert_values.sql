@@ -127,7 +127,7 @@ VALUES(21, 'Józef', 'Małecki', '58031192986', '+48987543123', 'Krosno');
 INSERT INTO customer(ID, name, surname, pesel, phone, city)
 VALUES(22, 'Wiktor', 'Laskowski', '78040808612', '+48909543879', 'Gliwice');
 
-/* INSTERT TO CONTRACT_TYPE */
+/* INSERT INTO CONTRACT_TYPE */
 
 INSERT INTO contract_type(shortcut, full_name)
 VALUES('CoE', 'contract of employment');
@@ -140,3 +140,11 @@ VALUES('CoM', 'contract of mandate');
 
 INSERT INTO contract_type(shortcut, full_name)
 VALUES('B2B', 'business to business contract');
+
+/* INSERT INTO SALARY */
+
+INSERT INTO salary(type)
+VALUES('pernament');
+
+INSERT INTO salary(type)
+VALUES('per hour');
