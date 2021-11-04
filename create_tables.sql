@@ -43,3 +43,11 @@ time_in_months int,
 foreign key(employee_ID) references employee(ID),
 foreign key(type) references contract_type(shortcut)
 );
+
+CREATE TABLE contract_salary(
+contract_ID int not null primary key,
+salary_ID int not null,
+amount int not null,
+foreign key (contract_ID) references contract(ID),
+foreign key (salary_ID) references salary(ID)
+);
