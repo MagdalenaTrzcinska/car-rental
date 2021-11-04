@@ -33,3 +33,13 @@ CREATE TABLE salary(
 ID int not null auto_increment primary key,
 type varchar(40) not null
 );
+
+CREATE TABLE contract (
+ID int not null auto_increment primary key,
+employee_ID int not null,
+type varchar(3) not null,
+date_from date not null,
+time_in_months int,
+foreign key(employee_ID) references employee(ID),
+foreign key(type) references contract_type(shortcut)
+);
