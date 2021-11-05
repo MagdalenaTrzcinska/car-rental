@@ -51,3 +51,13 @@ amount int not null,
 foreign key (contract_ID) references contract(ID),
 foreign key (salary_ID) references salary(ID)
 );
+
+CREATE TABLE holiday(
+ID int not null auto_increment primary key,
+employee_ID int not null,
+reason varchar(60) not null,
+date_from date not null,
+date_to date not null,
+paid varchar(1) not null,
+foreign key(employee_ID) references employee(ID)
+);
