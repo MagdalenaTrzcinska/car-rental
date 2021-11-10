@@ -250,3 +250,25 @@ VALUES
     	(15, 'normal leave', '2020-08-10', '2020-09-10', 'Y'),
 	(5, 'normal leave', '2020-10-10', '2020-10-19', 'N'),
 	(15, 'normal leave', '2021-06-10', '2021-06-15', 'Y');
+
+/* INSERT INTO CAR */
+
+INSERT INTO car (brand, model, year, body_type, KM, gearbox, engine_capacity, combustion, fuel_type, number_of_doors, number_of_seats, color, price_per_day)
+VALUES 
+('Hyundai', 'I20', 2021, 'Hatchback', 84, 'Manual', 1.2, 4.5, 'Patrol', 5, 5, 'Blue', 130),
+('Ford', 'Fiesta', 2021, 'Hatchback', 85, 'Manual', 1.1, 5,  'Patrol', 5, 5, 'White',  150),
+('Toyota', 'Yaris', 2019, 'Hatchback', 110, 'Manual', 1.5, 6,'Patrol', 5, 5, 'Blue',  150),
+('Kia', 'Ceed', 2020, 'Hatchback', 160, 'Manual', 1.5, 6, 'Patrol', 5, 5, 'Black',  190),
+('Toyota', 'Corolla', 2021, 'Sedan', 132, 'Manual', 1.6, 6, 'Patrol', 4, 5, 'Black',  150),
+('Hyundai', 'I30', 2020, 'Combi', 110, 'Manual', 1.5, 5.5, 'Patrol', 5, 5, 'Red',  130),
+('Mazda', '6', 2021, 'Combi', 145, 'Automatic', 2.0, 8, 'Patrol', 5, 5, 'Red', 280),
+('Toyota', 'Camry', 2021, 'Sedan', 218, 'Automatic', 2.5, 7, 'Patrol', 5, 5, 'Silver',  300),
+('Nissan', 'Qashqai', 2021, 'SUV', 140, 'Manual', 1.3, 8, 'Patrol', 5, 5, 'Silver', 250),
+('Kia', 'Sportage', 2020, 'SUV', 132, 'Manual', 1.6, 7.2, 'Patrol', 5, 5, 'White', 250),
+('Toyota', 'C-HR', 2021, 'SUV', 122, 'Automatic', 1.8, 5, 'Patrol', 5, 5, 'Red', 240),
+('Volkswagen', 'Passat', 2018, 'Sedan', 150, 'Manual', 1.8, 10, 'Diesel', 5, 5, 'Silver', 150),
+('Opel', 'Astra', 2018, 'Hatchback', 140, 'Manual', 1.4, 8, 'Patrol', 5, 5, 'Brown', 120),
+('Skoda', 'Octavia', 2019, 'Combi', 115, 'Manual', 1.8, 7, 'Diesel', 5, 5, 'Black', 130),
+('Audi', 'A3', 2018, 'Hatchback', 116, 'Manual', 1.6, 7, 'Patrol', 5, 5, 'Brown', 120),
+('Seat', 'Leon', 2018, 'Combi', 131, 'Manual', 1.5, 7, 'Patrol', 5, 5, 'Silver', 130),
+('Mercedes-Benz', 'C class', 2020, 'Sedan', 272, 'Automatic', 2.0, 13, 'Patrol', 4, 5, 'Red', 190);
