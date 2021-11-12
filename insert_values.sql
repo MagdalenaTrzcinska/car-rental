@@ -272,3 +272,31 @@ VALUES
 ('Audi', 'A3', 2018, 'Hatchback', 116, 'Manual', 1.6, 7, 'Patrol', 5, 5, 'Brown', 120),
 ('Seat', 'Leon', 2018, 'Combi', 131, 'Manual', 1.5, 7, 'Patrol', 5, 5, 'Silver', 130),
 ('Mercedes-Benz', 'C class', 2020, 'Sedan', 272, 'Automatic', 2.0, 13, 'Patrol', 4, 5, 'Red', 190);
+
+INSERT INTO car (brand, model, year, body_type, KM, gearbox, engine_capacity, combustion, fuel_type, number_of_doors, number_of_seats, color, price_per_day)
+VALUES 
+('Volksagen', 'Arteon', 2021, 'Combi', 190, 'Automatic', 2.0, 9, 'Patrol', 5, 5, 'Brown', 170),
+('Kia', 'Stinger', 2019, 'Sedan', 366, 'Automatic', 3.3, 11, 'Patrol', 5, 5, 'Red', 330),
+('Opel', 'Insignia', 2018, 'Combi', 160, 'Manual', 2.0, 6.50, 'Diesel', 5, 5, 'Black', 140),
+('Mercedes-Benz', 'E class', 2021, 'Sedan', 367, 'Automatic', 2.0, 13,  'Patrol', 4, 5, 'Black',  300),
+('Suzuki', 'Grand Vitara', 2020, 'SUV', 106, 'Manual', 1.6, 10,'Patrol', 3, 4, 'Grey',  140),
+('Chevrolet', 'Captiva', 2019, 'SUV', 150, 'Manual', 2.0, 8, 'Diesel', 5, 5, 'Grey',  150),
+('Renault', 'Clio', 2020, 'Hatchback', 90, 'Manual', 1.5, 4, 'Diesel', 5, 5, 'Black',  120),
+('Chevrolet', 'Cruze', 2020, 'Sedan', 140, 'Manual', 1.5, 6, 'Patrol', 5, 5, 'White',  140),
+('Audi', 'Q5', 2021, 'SUV', 190, 'Automatic', 2.0, 5, 'Diesel', 5, 5, 'White', 250),
+('Ford', 'Kuga', 2021, 'SUV', 152, 'Automatic', 2.5, 10, 'Patrol', 5, 5, 'Black',  170),
+('Peugeot', 'Bocer', 2021, 'SUV', 120, 'Manual', 1.5, 8, 'Diesel', 4, 3, 'Silver', 150),
+('Alfa Romeo', 'Giulietta', 2019, 'Hatchback', 172, 'Automatic', 1.4, 6, 'Patrol', 5, 5, 'Silver', 170),
+('Nissan', 'Juke', 2019, 'SUV', 122, 'Automatic', 1.6, 10, 'Patrol', 5, 5, 'Red', 170),
+('Audi', 'A6', 2020, 'Combi', 272, 'Automatic', 3.0, 5.90, 'Diesel', 4, 5, 'Red', 200),
+('Dacia', 'Sandero', 2020, 'Hatchback', 75, 'Manual', 1.5, 4.90, 'Diesel', 5, 5, 'Black', 110),
+('Suzuki', 'Swift', 2020, 'Hatchback', 92, 'Manual', 1.3, 8, 'Patrol', 5, 5, 'Black', 120),
+('Alfa Romeo', 'Giulia', 2021, 'Sedan', 210, 'Automatic', 2.2, 6, 'Diesel', 4, 5, 'Black', 170),
+('Aston Martin', 'Vanquish', 2018, 'Cabriolet', 603, 'Automatic', 2.0, 12, 'Patrol', 2, 2, 'Black', 580),
+('Ferrari', '812 Superfast', 2021, 'Coupe', 800, 'Automatic', 2.0, 13, 'Patrol', 2, 2, 'Gray', 720),
+('Opel', 'Crossland X', 2019, 'Minivan', 130, 'Manual', 1.6, 8, 'Patrol', 5, 5, 'Red', 180),
+('Volksagen', 'Multivan', 2020, 'Minivan', 150, 'Manual', 2.0, 8, 'Diesel', 4, 7, 'White', 190),
+('Fiat', '500L', 2018, 'Minivan', 95, 'Automatic', 1.3, 4.5, 'Diesel', 5, 5, 'Brown', 170),
+('Jeep', 'Compass', 2021, 'SUV', 150, 'Automatic', 1.3, 6, 'Patrol', 5, 5, 'Red', 160),
+('Jeep', 'Wrangler', 2019, 'SUV', 272, 'Automatic', 1.8, 14, 'Patrol', 5, 5, 'Black', 260),
+('Volksagen', 'T-Roc', 2021, 'SUV', 150, 'Automatic', 1.5, 10, 'Patrol', 5, 5, 'Gray', 160);
